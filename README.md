@@ -1,21 +1,62 @@
-<<<<<<< HEAD
-# tap_translate
+# TAP TRANSLATE
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+TAP TRANSLATE is a versatile Flutter-based application designed for seamless Morse code translation. This app converts text to Morse code and vice versa, using both visual and auditory cues. It features a user-friendly interface with intuitive design elements to enhance the user experience. The app is ideal for learning and practicing Morse code, as well as for accessibility purposes.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Text to Morse Code Conversion:** Convert plain text into Morse code with visual representation and sound feedback.
+- **Morse Code to Text Conversion:** Translate Morse code into readable text format.
+- **Audio Feedback:** Morse code input is supported with sound effects for dots and dashes.
+- **Vibration Feedback:** For mobile devices, vibration feedback helps in learning Morse code.
+- **User-Friendly Interface:** Simple and clean design for easy navigation and usability.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# TAP-TRANSLATE---Morse-code-translator
-A flutter app that allows for the translation from morse code to text and vice versa 
->>>>>>> fdcebf18148bd5bf434c121c40ff23aad149e33a
+To run TAP Translate on your local machine, follow these steps:
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/Lara-Teju/TAP-TRANSLATE.git
+    ```
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    cd TAP-TRANSLATE
+    ```
+
+3. **Install Dependencies:**
+
+    Make sure you have [Flutter](https://flutter.dev/docs/get-started/install) installed. Then, run:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the Application:**
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+1. **Text to Morse Code:**
+   - Enter text in the input field.
+   - Tap the convert button to see the Morse code representation and hear the corresponding sound.
+
+2. **Morse Code to Text:**
+   - Enter Morse code (using dots and dashes) in the input field.
+   - Tap the convert button to see the translated text.
+
+3. **Audio Feedback:**
+   - Ensure your device’s sound is turned on to hear the Morse code signals.
+
+4. **Vibration Feedback:**
+   - For mobile devices, vibration feedback is enabled to help users practice Morse code.
+
+
+
